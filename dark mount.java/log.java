@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Didi {
+public class log {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         System.out.println("Hello this is a special program formed by manik for didi ");
