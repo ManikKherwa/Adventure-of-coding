@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>    .b{
+        background-color:red;
+        width: 70px;
+        height: 70px;
+        transition: width 0s , height 0s;border-radius:  0s ;
+        overflow: hidden;
+        margin-top: 222px;
+     }  
+     .b:hover{
+         width: 300px;
+         height: 300px;
+        border-radius: 50%;
+     }
+   
+        .a{
+            animation: bouncing 0.5s ease 0s infinite alternate both;
+            background: darkblue;
+            border-radius: 50%;
+            display: inline-block;
+            color: white;
+            cursor: pointer;
+            font-size: 0.75rem;
+            font-weight: 300;
+            letter-spacing: 0.2cm;
+            padding: 1em 2cm 1.1em;
+            position: relative;
+            text-decoration: none;
+            text-transform: uppercase;
+            vertical-align: top;
+            margin-top: 100px;
+        }
+        @keyframes bouncing {0%{
+             bottom: 0px;
+             box-shadow: 0 0 5px rgba(0,0,0,0.5);
+        } 
+        100%{
+            bottom: 50px;
+            box-shadow:0 50px 50px rgba(0,0,0,0.1);
+        } 
+        }
+    </style>
+</head>
+<body>
+    <div class="a">loading</div>
+    <div class="b">google Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sit tempore qui dolorem placeat alias molestias, tempora magnam laboriosam sint ex neque ipsa. Impedit placeat numquam eius aliquam quibusdam ipsa doloremque laborum temporibus ipsum iste quia architecto, reprehenderit accusantium, fugit itaque incidunt adipisci. Porro laudantium cupiditate saepe pariatur? Porro itaque eius eveniet soluta ratione vitae vel sunt. Quam quia, assumenda labore rerum nihil doloremque corrupti ipsum. Officiis laborum, nemo, velit distinctio quos tenetur amet totam odit quaerat et ducimus possimus illum optio exercitationem nisi obcaecati reiciendis quas accusamus reprehenderit, accusantium expedita? Aspernatur iure molestiae porro dolor deleniti expedita corporis itaque!</div>
+</body>
+</html>
